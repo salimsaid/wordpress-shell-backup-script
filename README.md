@@ -1,6 +1,6 @@
 ![Logo](https://i.ibb.co/pQJKNnf/wordpress-backup-script-logo.png "backup script logo")
 # wordpress-shell-backup-script
-A simple shell script to help back you backup your wordpress site(s) and DB
+A simple shell script to help you backup your wordpress site(s) and DB
 
 ## Requirements
 You must have [tar](http://manpages.ubuntu.com/manpages/bionic/man1/tar.1.html) installed, most linux distros ship with tar pre-installed. 
@@ -32,7 +32,7 @@ WWW_PATH=~
 SCRIPT_PATH=~
 ```
 
-## Adding sites to backup
+## Adding sites to be included in the backup
 ```bash
 #Add the site(s) you wish to back up as as string assigned to the directories variable
 #for a single site , add it as a string like so
